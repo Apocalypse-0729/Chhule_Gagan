@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content-7 img{
+    margin: 2vh;
+}
+.course_det{
+    align-items:center;
+    justify-content: left;
+}
