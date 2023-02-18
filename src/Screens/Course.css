@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.content-7-li{
+    text-align: left;
+}
 .content-7 img{
     margin: 2vh;
 }
@@ -9,3 +12,31 @@
     align-items:center;
     justify-content: left;
 }
+
+.content-img{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.content{
+    flex-basis: 50%;
+    padding: 0 20px;
+    text-align: center;
+}
+.content-img img{
+    flex-basis: 50%;
+    max-width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .content-img {
+      flex-direction: column;
+    }
+  
+    .content-img img {
+      flex-basis: 100%;
+    }
+  
+    .content {
+      flex-basis: 100%;
+    }
+  }

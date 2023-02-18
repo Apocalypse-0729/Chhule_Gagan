@@ -1,4 +1,5 @@
 import React from 'react'
+import "./About.css"
 import founder from '../img/founder.jpg'
 import co_1 from '../img/co-found1.jpeg'
 import co_2 from '../img/co-found2.jpeg'
@@ -22,19 +23,19 @@ function About() {
                                     <h6>M.Tech-IIT Kharagpur | B.Tech-NIT Calicut</h6>
                                 </div>
                             <div class="row mt-5 justify-content-around">
-                                <div class="col-lg-3 rounded-5 border pt-3 shadow">
+                                <div class="col-lg-3 rounded-5 border pt-3 shadow card-my">
                                     <img class="rounded-circle" src={co_1} alt="Generic placeholder image" width="140" height="140" />
                                     <h2>Co-Founder</h2>
                                     <h4>Mr. Sunil</h4>
                                     <p>B.Tech-IIT Roorkee</p>
                                 </div>
-                                <div class="col-lg-3 rounded-5 border pt-3 shadow">
+                                <div class="col-lg-3 rounded-5 border pt-3 shadow card-my">
                                     <img class="rounded-circle" src={co_2} alt="Generic placeholder image" width="140" height="140" />
                                     <h2>Co-Founder</h2>
                                     <h4>Mr. Deepesh</h4>
                                     <p>B.Tech-IIT Roorkee</p>
                                 </div>
-                                <div class="col-lg-3 rounded-5 border pt-3 shadow">
+                                <div class="col-lg-3 rounded-5 border pt-3 shadow card-my">
                                     <img class="rounded-circle" src={co_3} alt="Generic placeholder image" width="140" height="140" />
                                     <h2>Co-Founder</h2>
                                     <h4>Mr. Ayush</h4>

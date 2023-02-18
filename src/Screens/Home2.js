@@ -1,7 +1,10 @@
 import React from "react";
 import "./Home.css";
-import home from "../img/home.png";
-import home2 from "../img/home2.png";
+import "./About.css";
+import home from "../img/undraw_educator_re_ju47.svg";
+import home2 from "../img/undraw_education_f8ru.svg";
+import course from '../img/undraw_certificate_re_yadi.svg'
+import edu from '../img/teacher.svg'
 import coming from "../img/coming-soon.webp";
 import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
@@ -11,7 +14,7 @@ function Home() {
         <div>
             <div>
                 <div class="container px-5 mt-5 main">
-                    <div class="row gx-5 align-items-center">
+                    <div class="row gx-5 align-items-center content-img">
                         <div
                             class="col-lg-6 aos-init aos-animate content"
                             data-aos="fade-up"
@@ -23,9 +26,8 @@ function Home() {
                             </h4>
                         </div>
                         <div
-                            class="col-lg-6 d-none d-lg-block aos-init aos-animate"
+                            class="col-lg-6 aos-init aos-animate"
                             data-aos="fade-up"
-                            data-aos-delay="100"
                         >
                             <img class="img-fluid" src={home} alt="..." />
                         </div>
@@ -79,7 +81,7 @@ function Home() {
                     <div class="row">
                         <div class="col-lg-6">
                             <img
-                                src={home}
+                                src={course}
                                 class="bd-placeholder-img rounded"
                                 width="180"
                                 height="180"
@@ -145,10 +147,10 @@ function Home() {
                 <h1 class="h1">All our Mentors</h1>
                 <br />
                 <br />
-                <div class="col-lg-3 content-4 py-4 rounded">
+                <div class="col-lg-3 content-4 py-4 rounded card-my">
                     <img
                         class="rounded-circle"
-                        src={home}
+                        src={edu}
                         alt="Generic placeholder image"
                         width="180"
                         height="180"
@@ -169,10 +171,10 @@ function Home() {
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3 content-4 py-4 rounded">
+                <div class="col-lg-3 content-4 py-4 rounded card-my">
                     <img
                         class="rounded-circle"
-                        src={home}
+                        src={edu}
                         alt="Generic placeholder image"
                         width="180"
                         height="180"
@@ -193,10 +195,10 @@ function Home() {
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3 content-4 py-4 rounded">
+                <div class="col-lg-3 content-4 py-4 rounded card-my">
                     <img
                         class="rounded-circle"
-                        src={home}
+                        src={edu}
                         alt="Generic placeholder image"
                         width="180"
                         height="180"
