@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.main-6 a, .main-6 h5{
+    text-decoration: none;
+    align-items: flex-start;
+    justify-content: left;
+    display:flex;
+    font-size: larger;
+}
+
+.main-6 h5{
+    font-weight: 600;
+    font-size: larger;
+}
