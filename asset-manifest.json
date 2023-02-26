@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Chhule_Gagan/static/css/main.0db4a17f.css",
+    "main.js": "/Chhule_Gagan/static/js/main.ef2b09ed.js",
+    "static/media/home2.png": "/Chhule_Gagan/static/media/home2.31c536495c2772a9de18.png",
+    "static/media/founder.jpg": "/Chhule_Gagan/static/media/founder.d9263ef0b6abe5f84e0b.jpg",
+    "static/media/bootstrap-icons.woff?": "/Chhule_Gagan/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/home.png": "/Chhule_Gagan/static/media/home.b7e8f88069ed8cdad15f.png",
+    "static/media/bootstrap-icons.woff2?": "/Chhule_Gagan/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "static/media/co-found2.jpeg": "/Chhule_Gagan/static/media/co-found2.9dda9b17db1bb71f09d8.jpeg",
+    "static/media/qr-code.jpeg": "/Chhule_Gagan/static/media/qr-code.024c1eaceb498941aed9.jpeg",
+    "static/media/co-found3.jpeg": "/Chhule_Gagan/static/media/co-found3.9fd1263feea802f54340.jpeg",
+    "static/media/co-found1.jpeg": "/Chhule_Gagan/static/media/co-found1.460857d29c4ab8ae82c9.jpeg",
+    "static/media/coming-soon.webp": "/Chhule_Gagan/static/media/coming-soon.158ec2408ae17ea2dbc2.webp",
+    "static/media/logo.svg": "/Chhule_Gagan/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Chhule_Gagan/index.html",
+    "main.0db4a17f.css.map": "/Chhule_Gagan/static/css/main.0db4a17f.css.map",
+    "main.ef2b09ed.js.map": "/Chhule_Gagan/static/js/main.ef2b09ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0db4a17f.css",
+    "static/js/main.ef2b09ed.js"
+  ]
+}
