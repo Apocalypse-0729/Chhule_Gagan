@@ -33,7 +33,7 @@ const SignUp = () => {
   const handleClickshowpassword = () => setpasswordShow(!passwordshow);
   const handleClickshowCpassword = () => setcpasswordShow(!cpasswordshow);
 
- const navigate =  useNavigate();
+  const navigate = useNavigate();
 
   const SendDataToBackend = async (e) => {
     try {
@@ -48,9 +48,9 @@ const SignUp = () => {
           duration: 5000,
           isClosable: true,
         });
-      } else if (password?.length < 8) {
+      } else if (password?.length < 6) {
         toast({
-          title: "Password must contain minimum 8 digit",
+          title: "Password must contain minimum 6 digit",
           description: "try again",
           status: "error",
           duration: 5000,
@@ -86,8 +86,11 @@ const SignUp = () => {
         );
 
         if (res.status === 201) {
-          localStorage.setItem("Chhule_Gagan_userInfo", JSON.stringify(res.data));
-          navigate("/dashboard")
+          localStorage.setItem(
+            "Chhule_Gagan_userInfo",
+            JSON.stringify(res.data)
+          );
+          navigate("/dashboard");
           // push to other place
         } else {
           toast({
