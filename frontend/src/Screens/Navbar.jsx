@@ -3,7 +3,14 @@ import Logo from "../img/logo.png";
 import "./Navbar.css";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { Button } from "@chakra-ui/react";
+import { ChatState } from "../context/chatprovider";
 function Navbar() {
+  const {user} = ChatState()
+  const HandleLogout=()=>{
+    
+    localStorage.removeItem("Chhule_Gagan_userInfo");
+  }
+  //console.log(user)
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -40,16 +47,29 @@ function Navbar() {
                   About Us
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link active" href="/contact">
-                  Contact Us
-                </a>
-              </li>
+             
+              { (user === undefined || user ===null) ?
               <li className="nav-item">
                 <Button colorScheme="red" variant="outline" as='a' href = "/register">
                   Login
                 </Button>
               </li>
+              :
+              <>
+              <li className="nav-item">
+                <a className="nav-link active" href="/dashboard">
+                  Dashboard
+                </a>
+              </li>
+              <li className="nav-item">
+              <a className="nav-link active" href="" onClick={HandleLogout}>
+                logout
+                </a>
+              
+              </li>
+              </>
+              
+              }
             </ul>
           </div>
         </div>
